@@ -6,7 +6,8 @@ Repo containing the code for the seat-belt peripheral used in our driving simula
 The circuit is powered by a Seeeduino Xiao microcontroller which simply detects whether the seatbelt becomes unbuckled (rising-edge interrupt), or when the seatbelt becomes buckled (falling-edge). The microcontroller then sends a keystroke via HID, 'b' for buckled or 'u' for unbuckled.
 
 ## Wiring Diagram:
-![seatbelt-diagram](https://github.com/lcomino64/DECO3801-seatbelt-peripheral/assets/112602408/213eea4a-42d7-47aa-87c3-578093bdd062)
+![seatbelt-diagram](https://github.com/lcomino64/DECO3801-seatbelt-peripheral/assets/112602408/03580916-2ba9-4ce8-a4e1-bb8844f4219d)
+
 
 And just plug in the seeed via the USB-C port.
 
